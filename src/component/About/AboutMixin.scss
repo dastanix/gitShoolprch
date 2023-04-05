@@ -1,0 +1,25 @@
+@mixin About-H1{
+  font-weight: 700;
+  font-size: 42px;
+  color: #FFFFFF;
+  text-align: center;
+  padding-bottom: 2%;
+  height: 10vh;
+  margin: 0 auto;
+}
+@mixin About-P{
+  font-weight: 400;
+  font-size: 16px;
+  color: #FFFFFF;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+@mixin bg{
+  width: 370px;
+  height: 336px;
+  left: 135px;
+  top: 1065px;
+  background: linear-gradient(268.12deg, rgba(254, 254, 255, 0.032) -11.04%, rgba(255, 255, 255, 0.018) 104.89%);
+ border: 1px solid rgba(255, 255, 255, 0.59);
+  border-radius: 34px;
+}

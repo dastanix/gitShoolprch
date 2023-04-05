@@ -1,0 +1,16 @@
+@mixin Main-h1{
+  font-weight: 700;
+  font-size: 42px;
+  color: #FFFFFF;
+  text-align: center;
+  padding-bottom: 2%;
+  height: 10vh;
+  margin: 0 auto;
+}
+@mixin Main-P{
+  font-weight: 400;
+  font-size: 16px;
+  color: #FFFFFF;
+  text-align: center;
+  margin-bottom: 3rem;
+}

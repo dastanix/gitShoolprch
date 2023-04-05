@@ -1,0 +1,16 @@
+@mixin HeroH1 {
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 60px;
+  background: linear-gradient(89.83deg, #2563EB 0.11%, #D946EF 58.65%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+@mixin HeroP{
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 30px;
+  color: white;
+  opacity: 0.8;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.07);
+}

@@ -1,0 +1,32 @@
+@import "HeroMixin";
+#Hero{
+  .Hero{
+    padding-bottom: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &-left{
+      h1{
+        @include HeroH1;
+        padding-bottom: 1rem;
+      }
+      p{
+        @include HeroP;
+        padding-bottom: 1rem;
+      }
+    }
+    &--btn{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 295px;
+      &--two{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 130px;
+        color: white;
+      }
+    }
+  }
+}

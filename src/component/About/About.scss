@@ -1,0 +1,137 @@
+@import "AboutMixin";
+#About{
+  .About{
+    position: relative;
+    &-text-h1{
+      @include About-H1
+    }
+    &-text-P{
+      @include About-P
+    }
+    .About-Rectangle-Group{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 30px;
+      margin-bottom: 50vh;
+      &-one,&-Two,&-Three,&-Fo,&-Fife,&-Six {
+        @include bg;
+        padding: 30px 30px;
+        h1{
+          font-weight: 500;
+          font-size: 24px;
+          line-height: 31px;
+          color: #FFFFFF;
+          margin-left: 2.5rem;
+        }
+        p{
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 26px;
+          color: #FFFFFF;
+          text-align: center;
+        }
+        button{
+          font-weight: 400;
+          font-size: 16px;
+          color: #FFFFFF;
+          background: transparent;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          margin-left: 6.5rem;
+        }
+      }
+        }
+    &-global{
+      padding-bottom: 5rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      &-Right{
+        h1{
+          @include About-H1;
+          margin-bottom: 4rem;
+        }
+        p{
+          @include About-P;
+        }
+      }
+    }
+      }
+
+    }
+
+.Modals{
+  z-index: 1000;
+  transition: .5s;
+  position: absolute;
+  top: 33rem;
+  left: -1rem;
+  display: flex;
+  gap: 5rem;
+  padding-bottom: 10rem;
+}
+.img-Icon{
+  margin-left: 7rem;
+  margin-bottom: 1rem;
+  padding: 20px 20px;
+  width: 74px;
+  height: 74px;
+  left: 283px;
+  top: 1102px;
+  background: linear-gradient(180deg, #8A7FD9 0%, #402F8F 100%);
+  border-radius: 55px;
+}
+ .img-Icon-one{
+  margin-left: 7rem;
+  margin-bottom: 1rem;
+  padding: 20px 20px;
+  width: 74px;
+  height: 74px;
+  left: 283px;
+  top: 1102px;
+   background: linear-gradient(180deg, #D97F95 0%, #923250 100%);  border-radius: 55px;
+}
+ .img-Icon-two{
+  margin-left: 7rem;
+  margin-bottom: 1rem;
+  padding: 20px 20px;
+  width: 74px;
+  height: 74px;
+  left: 283px;
+  top: 1102px;
+    background: linear-gradient(180deg, #84D8ED 0%, #4292BB 100%);  border-radius: 55px;
+}
+  .img-Icon-three{
+  margin-left: 7rem;
+  margin-bottom: 1rem;
+  padding: 20px 20px;
+  width: 74px;
+  height: 74px;
+  left: 283px;
+  top: 1102px;
+     background: linear-gradient(180deg, #92EFC3 0%, #2F8F5B 100%);  border-radius: 55px;
+}
+    .img-Icon-fo{
+  margin-left: 7rem;
+  margin-bottom: 1rem;
+  padding: 20px 20px;
+  width: 74px;
+  height: 74px;
+  left: 283px;
+  top: 1102px;
+      background: linear-gradient(180deg, #BC7FD9 0%, #923283 100%);
+  border-radius: 55px;
+}
+    .img-Icon-fife{
+  margin-left: 7rem;
+  margin-bottom: 1rem;
+  padding: 20px 20px;
+  width: 74px;
+  height: 74px;
+  left: 283px;
+  top: 1102px;
+ background: linear-gradient(180deg, #8684ED 0%, #4247BB 100%);  border-radius: 55px;
+}
